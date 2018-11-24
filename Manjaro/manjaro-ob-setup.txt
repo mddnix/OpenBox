@@ -1,0 +1,44 @@
+
+    :: manjaro-architect 0.9.19-2 ::
+
+11/15/18 12:01:20 system: BIOS, init: systemd nw-client: nmtui 
+11/15/18 12:01:24 set LANG=en_US.UTF-8 
+11/15/18 12:01:24 set font ter-116n 
+11/15/18 12:01:24 loadkeys us 
+11/15/18 12:01:32 refresh database 
+11/15/18 12:01:39 loadkeys us 
+11/15/18 12:02:15 --------- [lsblk] ------------
+11/15/18 12:02:15 /dev/vda1 40G
+11/15/18 12:02:15 already mounted: sr0
+11/15/18 12:02:16 ignore crypted: 
+11/15/18 12:02:33 mount /dev/vda1 as mkfs.ext4 -q. 
+11/15/18 12:02:33 create mountpoint /mnt 
+11/15/18 12:02:38 mount /dev/vda1 noatime
+11/15/18 12:03:02 clone profiles repo Cloning into '/usr/share/manjaro-architect/profiles'...
+11/15/18 12:03:22 selected: linux419
+11/15/18 12:03:45 selected: [Manjaro-openbox]
+11/15/18 12:03:48 filter_packages 
+11/15/18 12:03:51 selected 'minimal' profile
+11/15/18 12:03:52 packages to install: accountsservice acl acpi acpid adapta-maia-theme adwaita-icon-theme arandr b43-fwcutter bash btrfs-progs bzip2 compton conky coreutils cpupower crda cronie cryptsetup dash device-mapper dhclient dhcpcd diffutils dmraid dnsmasq dosfstools dunst e2fsprogs ecryptfs-utils efibootmgr engrampa exfat-utils exo-gtk3 f2fs-tools fakeroot file filesystem findutils freetype2 gamin gawk gcc-libs gettext gksu-polkit glibc gnome-icon-theme gnome-icon-theme-extras gnome-icon-theme-symbolic gnome-keyring gnome-themes-extra gparted gpicview grep gsimplecal gtk3-classic gzip haveged hicolor-icon-theme i3lock imagemagick inetutils intel-ucode iproute2 iptables iputils ipw2100-fw ipw2200-fw jfsutils jgmenu jsoncpp kickshaw less libmpdclient licenses lightdm lightdm-slick-greeter linux419 linux-firmware logrotate lsb-release lvm2 lxappearance-gtk3 lxappearance-obconf-gtk3 lxmenu-data lynx man-db manjaro-documentation-en manjaro-firmware manjaro-openbox-adapta-maia manjaro-openbox-config manjaro-openbox-desktop-settings manjaro-openbox-fonts manjaro-openbox-scripts manjaro-openbox-wallpapers-18.0 manjaro-release manjaro-settings-manager manjaro-system manjaro-wallpapers-18.0 manjaro-zsh-config man-pages mc mdadm memtest86+ mhwd mhwd-db micro-manjaro midori mkinitcpio-openswap nano networkmanager network-manager-applet networkmanager-dmenu networkmanager-openvpn nfs-utils nilfs-utils nitrogen noto-fonts ntfs-3g numlockx ob-autostart obconf obkey-gtk3 obmenu-generator openbox openresolv os-prober p7zip pacman papirus-maia-icon-theme pciutils pcmanfm-gtk3 perl polkit polkit-gnome polybar procps-ng psmisc python2-xdg qpdfview ranger reiserfsprogs rofi rsync scrot sed shadow skippy-xd s-nail spectre-meltdown-checker sudo sysfsutils systemd-sysvcompat tar terminus-font termite termite-terminfo testdisk texinfo tint2 tlp ttf-dejavu ttf-font-awesome ttf-font-logos ttf-icomoon-icons ttf-material-icons ttf-polybar-icons ttf-roboto unace unarchiver unarj unrar unzip usbutils util-linux vi viewnior wget which wireless_tools wmctrl wpa_supplicant xcape xcb-util-cursor xcmenu xcursor-breeze xdg-user-dirs xdg-user-dirs-gtk xdg-utils xdotool xed xf86-input-libinput xfce4-settings-gtk3 xfsprogs xorg-server xorg-server-common xorg-xbacklight xorg-xinit xorg-xinput xorg-xkill xorg-xprop xterm zenity zsh 
+11/15/18 12:31:35 install basepkgs 
+11/15/18 12:31:35 configure vconsole
+11/15/18 12:31:35 base installed succesfully.
+11/15/18 12:31:36 copy overlay 
+11/15/18 12:31:36 copy root config 
+11/15/18 12:31:36 enable avahi-daemon NetworkManager systemd-timesyncd tlp tlp-sleep  Created symlink /etc/systemd/system/dbus-org.freedesktop.Avahi.service -> /usr/lib/systemd/system/avahi-daemon.service.
+11/15/18 12:31:36 disable pacman-init 
+11/15/18 12:31:36 enable lightdm Created symlink /etc/systemd/system/display-manager.service -> /usr/lib/systemd/system/lightdm.service.
+11/15/18 12:32:45 bios_bootloader ==> Creating install root at /mnt
+11/15/18 12:35:23 grub-install --target=i386-pc Installing for i386-pc platform.
+11/15/18 12:35:30 bios_bootloader grub ==> Creating install root at /mnt
+11/15/18 12:35:39 generate_fstab 
+11/15/18 12:35:44 set_hostname 
+11/15/18 12:35:56 set_locale 
+11/15/18 12:36:10 set_xkbmap us 
+11/15/18 12:36:34 set_timezone Asia/Kolkata 
+11/15/18 12:36:37 set_hw_clock 
+11/15/18 12:36:43 set_root_password New password: Retype new password: passwd: password updated successfully
+11/15/18 12:36:51 default shell: [/bin/bash]
+11/15/18 12:36:59 add user to groups 
+11/15/18 12:37:00 create user pwd New password: Retype new password: passwd: password updated successfully
+11/15/18 12:37:25 exit installer.
